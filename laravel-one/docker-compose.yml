@@ -23,3 +23,4 @@ services:
       - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
     depends_on:
       - database
+      
